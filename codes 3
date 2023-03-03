@@ -1,0 +1,56 @@
+dictionary = {"apple": 2, "banana": 4, "orange": 1, "kiwi": 3}
+for fruit, count in dictionary.items():
+    print("I have {} {}s".format(count, fruit))
+for number in range(2, 11, 2): #2, 4, 6, 8, 10
+    print(number)
+names = ["Alice", "Bob", "Charlie", "Dave"]
+for index, name in enumerate(names):
+    print("Index {} belongs to {}".format(index, name))
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+for each in range(1, 11):
+    print(each)
+for each in "karabuk istanbul":
+    print(each)
+liste = [1, 4, 6, 8, 3, 5, 9, 2, 43, 57]
+print(sum(liste))
+liste1 = [1, 2, 3, 4, 5, 6, -500, 23, 451, 67, 21, 23]
+print(min(liste1))
+minimum = 100000
+for each in liste1:
+    if each < minimum:
+        minimum = each
+    else:
+        continue
+print(minimum)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+dictionary = {"ali": 30, "ayse": 25, "mehmet": 28}
+
+type(dictionary) #dict
+
+dictionary["ali"]
+
+type(dictionary["ali"])
+
+dictionary.keys()
+
+dictionary.values() 
+
+def deneme():
+    
+    dictionary = {"ali": 30, "ayse": 25, "mehmet": 28}
+    
+    return dictionary
+
+dic = deneme() 
+
+dic["ali"]
+
+keys = dictionary.keys() 
+
+if "ali" in keys: 
+    
+    print("evet")
+
+else:
+    print("hayır")
