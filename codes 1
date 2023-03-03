@@ -1,0 +1,55 @@
+Some simple examples in Python language
+i=0 
+
+while (i<5):
+    
+    print(i)
+    
+    i = i+1
+output :
+0
+1
+2
+3
+4
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+def hesapla(x):
+    
+    output= x*x
+    
+    return output
+
+sonuc = hesapla(3)
+
+sonuc2 = lambda x: x*x 
+
+print(sonuc2(3)) 
+
+
+y = 3
+
+z = lambda x:x*y
+
+z(3)
+outpot:
+9
+9
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+# lambda function
+
+def hesapla(x):
+    output = x * 5
+    return output
+
+sonuc = hesapla(3)
+
+sonuc2 = lambda x: x * 5
+
+print(sonuc2(3))
+
+y = 3
+
+z = lambda x: x * y
+
+print(z(3))
+
