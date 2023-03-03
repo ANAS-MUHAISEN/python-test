@@ -1,0 +1,33 @@
+
+print(4 == 4)    
+print(4 == 6)    
+print(4 != 4)     
+print(True == True)  
+print(True == False) 
+print(3>2 and 7<8)   
+print(3>2 or 7<4)   
+var1 = 30
+var2 = 20
+if var1 > var2:
+    print("var1 is greater than var2")
+elif var1 == var2:
+    print("var1 is equal to var2")
+else:
+    print("var1 is less than var2")
+liste = [10, 20, 30, 40, 50]
+value = 30
+if value in liste:
+    print("The value {} is in the list.".format(value))
+else:
+    print("The value {} is not in the list.".format(value))
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
+    
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  name = input("What's your name? ")
+print("Hello, " + name)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
